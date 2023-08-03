@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "16468240777dfec14c": {
+      "type": "section-split-hero",
+      "disabled": true,
+      "settings": {
+        "image_height": "screen-height-two-thirds",
+        "mobile_layout": "stacked",
+        "image_desktop_left": "shopify:\/\/shop_images\/Untitled_design-4.png",
+        "bg_position_left": "center-center",
+        "image_desktop_right": "shopify:\/\/shop_images\/DESKTOP_LIP-LAUNCH-BANNER.png",
+        "bg_position_right": "center-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "title": "ABOUT US",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-dark",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "1647319332eb7a25ba": {
+      "type": "custom-html",
+      "settings": {
+        "html": "<div class=\"klaviyo-form-RtBbSh\"><\/div>",
+        "show_padding": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1646563129eca30528": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "Shop Naked Sundays",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "shopify:\/\/collections\/all",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "all"
+      }
+    }
+  },
+  "order": [
+    "16468240777dfec14c",
+    "1647319332eb7a25ba",
+    "main",
+    "1646563129eca30528"
+  ]
+}
