@@ -102,6 +102,27 @@
     {%- endif -%}
   {%- endfor -%}
 
+    {% comment %} product bundle for tabs {% endcomment %}
+        {%- if block.settings.show_product_bundle and product.metafields.custom.product_bundle_list.value != blank -%}
+        {%- capture tab_links_html -%}
+          {{ tab_links_html }}
+
+          <li class="tab-link tab-link-{{ count }}{% if count == 0 %} current{% endif %}" data-tab="{{ count }}" data-block-id="{{ block.id }}" tabindex="0" {{ block.shopify_attributes }}>
+            <span>{{ 'products.general.product_bundle' | t }}</span>
+          </li>
+        {%- endcapture -%}
+        {%- capture tab_contents_html -%}
+          {{ tab_contents_html }}
+
+          <div class="tab-content tab-content-{{ count }}{% if count == 0 %} current{% endif %} rte product-bundle-container">
+            {% for productItem in product.metafields.custom.product_bundle_list.value %}
+              {% render 'line-item-product-bundle' with line_item: productItem.product.value, description: productItem.short_description %}
+            {% endfor %}
+          </div>
+        {%- endcapture -%}
+        {%- assign count = count | plus: 1 -%}
+      {% endif %}
+
 
   {%- if tab_contents_html -%}
     <div class="product-tabs" data-tabs-holder>
@@ -188,6 +209,27 @@
                   {{ truncate_html }}
                 </div>
               {%- endif -%}
+            </div>
+          </div>
+        </div>
+      {%- endif -%}
+
+            {% comment %} product bundle for accordion {% endcomment %}
+      {%- if block.settings.show_product_bundle and product.metafields.custom.product_bundle_list.value != blank -%}
+        <div class="accordion-row product-bundle-container" data-collapsible data-accordion-toggle>
+          <p class="accordion-toggle" data-focus-element tabindex="6">
+            {{ 'products.general.product_bundle' | t }}
+          </p>
+
+          <div class="rte accordion-content" data-accordion-body style="height: auto;">
+            <div class="accordion__content accordion-content__holder accordion-content__holder--truncate" {{ truncated_holder }} data-collapsible-content>
+              <div class="accordion-content__inner">
+                <div class="accordion-content__entry" data-truncated-content="accordion-content__entry--truncate">
+                  {% for productItem in product.metafields.custom.product_bundle_list.value %}
+                    {% render 'line-item-product-bundle' with line_item: productItem.product.value, description: productItem.short_description %}
+                  {% endfor %}
+                </div>
+              </div>
             </div>
           </div>
         </div>
