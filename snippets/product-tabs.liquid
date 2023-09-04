@@ -190,7 +190,7 @@
       
       {%- if product_description_content != blank -%}
         <div class="accordion-row">
-          <p class="accordion-toggle" tabindex="0" data-focus-element data-accordion-toggle {{ accordion_description_attr }}>
+          <p class="accordion-toggle" tabindex="0" data-focus-element data-accordion-toggle data-block-id="{{ block.id }}-{{ forloop.index }}" {{ block.shopify_attributes }}>
             {{ 'products.general.description' | t }}
           </p>
 
@@ -216,12 +216,12 @@
 
             {% comment %} product bundle for accordion {% endcomment %}
       {%- if block.settings.show_product_bundle and product.metafields.custom.product_bundle_list.value != blank -%}
-        <div class="accordion-row product-bundle-container" data-collapsible data-accordion-toggle>
-          <p class="accordion-toggle" data-focus-element tabindex="6">
+        <div class="accordion-row product-bundle-container">
+          <p class="accordion-toggle is-open" tabindex="0" data-focus-element data-accordion-toggle data-block-id="tabs-6">
             {{ 'products.general.product_bundle' | t }}
           </p>
 
-          <div class="rte accordion-content" data-accordion-body style="height: auto;">
+          <div class="rte accordion-content" data-accordion-body style="box-sizing: border-box; display: block;">
             <div class="accordion__content accordion-content__holder accordion-content__holder--truncate" {{ truncated_holder }} data-collapsible-content>
               <div class="accordion-content__inner">
                 <div class="accordion-content__entry" data-truncated-content="accordion-content__entry--truncate">

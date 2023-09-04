@@ -1,85 +1,86 @@
+.template-product .product-bundle-container .accordion-content__entry .cart__items:nth-child(0) {
+  border-top: none;
+}
 .template-product .product-bundle-container .accordion-content {
-  padding-top: 10px;
+  padding-top: 0px;
   padding-bottom: 0px;
 }
-.template-product .product-bundle-container .cart__item {
+.template-product .product-bundle-container .cart__items {
   padding: 0px;
   border-bottom: none;
-  margin-bottom: 26px;
-}
-.template-product .product-bundle-container .cart__item .cart__item__image img {
   margin: 0px;
+  display: flex;
+  -moz-column-gap: 13px;
+       column-gap: 13px;
+  padding: 13px 0px;
 }
-.template-product .product-bundle-container .cart__item .cart__item__content {
-  padding-right: 0px;
-  padding-left: 39px;
-  width: calc(100% - 150px);
+.template-product .product-bundle-container .cart__items .cart-item__image {
+  display: inline;
+  flex: 0 0 auto;
 }
-.template-product .product-bundle-container .cart__item .cart__item__title {
+.template-product .product-bundle-container .cart__items .cart-item__image a {
+  display: inline-flex;
+}
+.template-product .product-bundle-container .cart__items .cart-item__image a img {
+  margin: 0px !important;
+}
+.template-product .product-bundle-container .cart__items .cart-item__content {
+  padding: 0px;
+  flex: 1;
+  width: initial;
+  max-width: initial;
+}
+.template-product .product-bundle-container .cart__items .cart-item__content .cart-item__content-inner {
+  width: initial !important;
+}
+.template-product .product-bundle-container .cart__items .cart-item__title {
   margin-top: 0px;
   margin-bottom: 10px;
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
   color: #000000;
 }
-.template-product .product-bundle-container .cart__item .cart__item__title a {
+.template-product .product-bundle-container .cart__items .cart-item__title a {
   text-decoration: none;
   background: none;
   padding: 0px;
 }
-.template-product .product-bundle-container .cart__item .short_description {
+.template-product .product-bundle-container .cart__items .short_description {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
   color: #000000;
   margin: 0px;
 }
-.template-product .product-bundle-container .cart__item .cart__item__meta {
+.template-product .product-bundle-container .cart__items .cart-item__meta {
   margin-top: 0px;
   margin-bottom: 10px;
 }
-.template-product .product-bundle-container .cart__item .cart__item__meta .cart__item__selected-options {
+.template-product .product-bundle-container .cart__items .cart-item__meta .cart__item__selected-options {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 18px;
   color: #000000;
 }
-.template-product .product-bundle-container .cart__item .cart__item__meta p {
+.template-product .product-bundle-container .cart__items .cart-item__meta p {
   margin: 0px;
 }
 @media only screen and (max-width: 749px) {
-  .template-product .product-bundle-container .cart__item {
-    margin-bottom: 16px;
+  .template-product .product-bundle-container .cart__items {
+    -moz-column-gap: 19px;
+         column-gap: 19px;
   }
-  .template-product .product-bundle-container .cart__item .cart__item__image img {
+  .template-product .product-bundle-container .cart__items .cart-item__image img {
     width: 120px;
   }
-  .template-product .product-bundle-container .cart__item .cart__item__content {
+  .template-product .product-bundle-container .cart__items .cart-item__content {
     padding-right: 0px;
-    padding-left: 19px;
-    width: calc(100% - 120px);
   }
-  .template-product .product-bundle-container .cart__item .cart__item__title {
-    font-size: 14px;
-    line-height: 22px;
+  .template-product .product-bundle-container .cart__items .cart-item__title {
     margin-bottom: 9px;
   }
-  .template-product .product-bundle-container .cart__item .cart__item__meta {
+  .template-product .product-bundle-container .cart__items .cart-item__meta {
     margin-bottom: 9px;
-  }
-  .template-product .product-bundle-container .cart__item .cart__item__meta .cart__item__selected-options {
-    font-size: 12px;
-    line-height: 16px;
-  }
-  .template-product .product-bundle-container .cart__item .short_description {
-    font-size: 12px;
-    line-height: 16px;
   }
 }
