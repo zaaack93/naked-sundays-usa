@@ -1,5 +1,27 @@
 {
   "sections": {
+    "890f62e1-bad5-4398-9d5d-1f7c4c95352c": {
+      "type": "section-split-hero",
+      "settings": {
+        "image_height": "seven-fifty-height-hero",
+        "mobile_layout": "stacked",
+        "image_desktop_left": "shopify:\/\/shop_images\/NS_HOLI_WEB-15.jpg",
+        "bg_position_left": "center-center",
+        "image_desktop_right": "shopify:\/\/shop_images\/2_d5fd4f68-448a-40e4-abd5-13f9c02c39ad.png",
+        "bg_position_right": "center-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10,
+        "title": "AWARD-WINNING BEAUTY-INFUSED SUNSCREEN FOR SKINCARE LOVERS",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "SHOP ALL",
+        "link": "shopify:\/\/collections\/all-products",
+        "button_color": "btn--primary",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
     "30f38ff2-66b5-46c4-96b7-9ae94ccf0cf2": {
       "type": "section-split-hero",
       "disabled": true,
@@ -20,29 +42,6 @@
         "link_text": "SHOP NOW",
         "link": "shopify:\/\/collections\/all",
         "button_color": "btn--secondary",
-        "button_style": "hero__btn btn btn--large caps"
-      }
-    },
-    "890f62e1-bad5-4398-9d5d-1f7c4c95352c": {
-      "type": "section-split-hero",
-      "disabled": true,
-      "settings": {
-        "image_height": "seven-fifty-height-hero",
-        "mobile_layout": "stacked",
-        "image_desktop_left": "shopify:\/\/shop_images\/lip_oil_studio_2_1.jpg",
-        "bg_position_left": "center-center",
-        "image_desktop_right": "shopify:\/\/shop_images\/CherryLip1.jpg",
-        "bg_position_right": "center-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "title": "It's National Lipstick Day!",
-        "description": "CELEBRATE WITH US! FREE SPF LIP OIL ON CHECKOUT WITH EVERY ORDER OVER $50",
-        "flex_align": "align--middle-center",
-        "text_color": "text-light",
-        "transparent": true,
-        "link_text": "Shop now",
-        "link": "shopify:\/\/collections\/all",
-        "button_color": "btn--primary",
         "button_style": "hero__btn btn btn--large caps"
       }
     },
@@ -441,6 +440,7 @@
         },
         "3e8dacc8-736a-4fcf-b449-9c086b48fda3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "bg_position": "center-center",
             "image": "shopify:\/\/shop_images\/NS_JULY26_WEB-4.jpg",
@@ -455,6 +455,26 @@
             "link_text": "Shop now",
             "link": "shopify:\/\/collections\/summer-bundles",
             "button_color": "btn--primary",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        },
+        "22358e28-556e-4b5b-b4c5-9bb7df2ba38d": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/CabanaGlow_Naked_Sundays_banner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/CabanaGlow_Naked_Sundays_banner.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "NEW! Meet CabanaGlow™ - Tinted Mineral Glow Serum Drops",
+            "description": "World First SPF-infused Mineral Bronze & Illuminating Drops. PRE-ORDER NOW. Already SOLD OUT GLOBALLY!!",
+            "flex_align": "align--top-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "SHOP CABANAGLOW",
+            "link": "shopify:\/\/collections\/cabanaglow",
+            "button_color": "btn--secondary",
             "button_style": "hero__btn btn btn--large caps"
           }
         }
@@ -480,8 +500,10 @@
         "3049682c-60f6-442a-91a4-034df2975fc1",
         "ff86c927-183c-4276-8485-daa31697b235",
         "a3292f14-b5f2-4968-a6ab-1ffd5b711fc6",
-        "3e8dacc8-736a-4fcf-b449-9c086b48fda3"
+        "3e8dacc8-736a-4fcf-b449-9c086b48fda3",
+        "22358e28-556e-4b5b-b4c5-9bb7df2ba38d"
       ],
+      "disabled": true,
       "settings": {
         "height": "screen-height-full",
         "transition": "slide",
@@ -489,6 +511,44 @@
         "dots_style": "hidden",
         "autoplay": false,
         "autoplay_speed": 4
+      }
+    },
+    "e53c3822-475f-466e-bb34-d9d6958d510d": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/24cc9ba3c18a40e79fe04b2baaac2c78.mp4",
+        "video_link": "",
+        "bg_position": "center-bottom",
+        "height": "screen-height-full",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "title": "Mix & Match Your Way",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "SHOP THE COLLECTION",
+        "link": "shopify:\/\/collections\/cabanaglow",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline caps"
+      }
+    },
+    "7d260bce-5764-4940-a634-6d29bc58b05a": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "Meet CabanaGlow™ ",
+        "description": "",
+        "text_alignment": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "cabana-singles",
+        "grid": 3,
+        "rows": 1,
+        "layout_mobile": "1"
       }
     },
     "82ed1398-aacc-4d0a-aeea-9d5843fdd194": {
@@ -509,6 +569,66 @@
         "link": "shopify:\/\/products\/golden-glow",
         "button_color": "btn--secondary",
         "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "28a5e99b-deab-4b2a-bba0-fddb9cd29a9d": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "LIMITED EDITION SUMMER BUNDLES",
+        "description": "",
+        "text_alignment": "center",
+        "link_text": "SHOP THE BUNDLES",
+        "link_url": "shopify:\/\/collections\/summer-bundles",
+        "button_color": "btn--primary",
+        "button_style": "hero__btn btn btn--large caps",
+        "featured_collection": "summer-bundles",
+        "grid": 5,
+        "rows": 1,
+        "layout_mobile": "2"
+      }
+    },
+    "8904577e-2216-4efc-bd44-d5fa64e6b352": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "Get Golden!",
+        "description": "<p>Meet Golden Glow: Tinted Body SPF with firming properties and natural Green Tea Extract<\/p>",
+        "text_alignment": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_color": "btn--black",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "featured_collection": "get-golden",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel"
+      }
+    },
+    "16522430815651a765": {
+      "type": "section-announcement",
+      "blocks": {
+        "165224308134718a83-3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"NAKED SUNDAYS GLOW MIST IS A GENIUS PRODUCT.\" - <em>Harpers Bazaar Magazine<\/em><\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "165224308134718a83-3"
+      ],
+      "settings": {
+        "bg_color": "#fbffc9",
+        "color": "#545454",
+        "layout": "marquee",
+        "speed": 7
       }
     },
     "166460077433f572cf": {
@@ -566,48 +686,6 @@
         "title": "AS SEEN IN...",
         "text_color": "text-dark",
         "bg_color": "#ffffff"
-      }
-    },
-    "28a5e99b-deab-4b2a-bba0-fddb9cd29a9d": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "LIMITED EDITION SUMMER BUNDLES",
-        "description": "",
-        "text_alignment": "center",
-        "link_text": "SHOP THE BUNDLES",
-        "link_url": "shopify:\/\/collections\/summer-bundles",
-        "button_color": "btn--primary",
-        "button_style": "hero__btn btn btn--large caps",
-        "featured_collection": "summer-bundles",
-        "grid": 4,
-        "rows": 1,
-        "layout_mobile": "2"
-      }
-    },
-    "16522430815651a765": {
-      "type": "section-announcement",
-      "blocks": {
-        "165224308134718a83-3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>\"NAKED SUNDAYS GLOW MIST IS A GENIUS PRODUCT.\" - <em>Harpers Bazaar Magazine<\/em><\/p>",
-            "target_url_enabled": false,
-            "target_url": "",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "165224308134718a83-3"
-      ],
-      "settings": {
-        "bg_color": "#fbffc9",
-        "color": "#545454",
-        "layout": "marquee",
-        "speed": 7
       }
     },
     "165069400179a562cd": {
@@ -804,7 +882,6 @@
     },
     "16465660169bc4f795": {
       "type": "section-custom-content",
-      "disabled": true,
       "blocks": {
         "d7475e47-fcb0-4278-b579-ada886eab9ab": {
           "type": "product",
@@ -837,6 +914,7 @@
         "d7475e47-fcb0-4278-b579-ada886eab9ab",
         "3c9d203e-65a5-4917-a211-a8539fec1f19"
       ],
+      "disabled": true,
       "settings": {
         "height": "screen-height-one-half",
         "padding": false,
@@ -881,7 +959,7 @@
       "type": "apps",
       "blocks": {
         "163fdf5d-9559-4811-9b83-7af56349fcbc": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 30,
             "feed_width": 100,
@@ -898,13 +976,16 @@
     }
   },
   "order": [
-    "30f38ff2-66b5-46c4-96b7-9ae94ccf0cf2",
     "890f62e1-bad5-4398-9d5d-1f7c4c95352c",
+    "30f38ff2-66b5-46c4-96b7-9ae94ccf0cf2",
     "164807645253ce09a9",
+    "e53c3822-475f-466e-bb34-d9d6958d510d",
+    "7d260bce-5764-4940-a634-6d29bc58b05a",
     "82ed1398-aacc-4d0a-aeea-9d5843fdd194",
-    "166460077433f572cf",
     "28a5e99b-deab-4b2a-bba0-fddb9cd29a9d",
+    "8904577e-2216-4efc-bd44-d5fa64e6b352",
     "16522430815651a765",
+    "166460077433f572cf",
     "165069400179a562cd",
     "1654677293f9a6de5a",
     "image-with-text",

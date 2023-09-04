@@ -26,10 +26,10 @@
     "footer_text": "#2e2e2e",
     "footer_link": "#2e2e2e",
     "footer_link_hover": "#ffa3e1",
-    "type_heading_font": "poppins_n6",
+    "type_heading_font": "playfair_display_n4",
     "type_heading_size": 120,
-    "type_base_font": "avenir_next_rounded_n4",
-    "type_body_size": 100,
+    "type_base_font": "helvetica_n4",
+    "type_body_size": 85,
     "type_nav_font": "body",
     "type_nav_size": 80,
     "type_nav_caps": true,
@@ -115,7 +115,7 @@
         ],
         "settings": {
           "header_style": "logo_beside",
-          "icon_family": "bold",
+          "icon_family": "clean",
           "logo": "shopify:\/\/shop_images\/NakedSundays-Logo_MultiColor_1f01187f-141c-4d56-9ec2-4b28a6e9a426.png",
           "logo_max_limit": 140,
           "main_menu_linklist": "main-menu",
@@ -291,8 +291,34 @@
           },
           "cafc7038-8b22-4433-9d8a-a5f323e171d4": {
             "type": "text",
+            "disabled": true,
             "settings": {
-              "text": "<p><strong>FREE FULL SIZE WATERMELON PRODUCT WHEN YOU SPEND OVER $50<\/strong><\/p>",
+              "text": "<p>FREE SPF BFF Brush with EVERY Order<\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "952ea115-60d6-4864-b18b-5a8b7682e8d0": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "text": "<p><strong>IT'S LABOR DAY WEEKEND! USE CODE: LABORDAY15 for 15% off SELECTION ITEMS<\/strong><\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "0d8bd4ea-a27c-48b8-b25d-8c008fb7c24e": {
+            "type": "text",
+            "settings": {
+              "text": "<p>It's World Coconut Day. FREE Coconut SPF50 Lip Oil with EVERY order! (ADD TO CART AT CHECKOUT)<\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -315,7 +341,9 @@
           "297416c7-f4f9-4a33-92c7-4ec7b455cd5c",
           "59a039b8-861a-44b0-b6fe-961ba72e7c58",
           "e3c23026-0b5a-4441-9016-b5953fb96f55",
-          "cafc7038-8b22-4433-9d8a-a5f323e171d4"
+          "cafc7038-8b22-4433-9d8a-a5f323e171d4",
+          "952ea115-60d6-4864-b18b-5a8b7682e8d0",
+          "0d8bd4ea-a27c-48b8-b25d-8c008fb7c24e"
         ],
         "settings": {
           "bg_color": "#e2def9",
